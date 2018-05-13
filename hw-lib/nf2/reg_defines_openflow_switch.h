@@ -194,5 +194,14 @@
 #define OF_LOOKUP_ACTION_BASE_REG                OF_BASE_ADDR+0x32
 #define OF_STATS_BASE_REG                        OF_BASE_ADDR+0x3c
 
+#define NUM_SUITABLE_F_IAT_REG                   OF_BASE_ADDR+0x3e
+#define NUM_TOTAL_F_IAT_REG                      OF_BASE_ADDR+0x3f
+#define NUM_SUITABLE_P_IAT_REG                   OF_BASE_ADDR+0x40
+#define NUM_TOTAL_P_IAT_REG                      OF_BASE_ADDR+0x41
+#define SUITABLE_DNS_RESPONSE_REG                OF_BASE_ADDR+0x42
+#define TOTAL_DNS_RESPONSE_REG                   OF_BASE_ADDR+0x43
+#define TOTAL_PKT_LEN_REG                        OF_BASE_ADDR+0x44
+#define CNT_PKT_REG                              OF_BASE_ADDR+0x45
+
 #endif
 
