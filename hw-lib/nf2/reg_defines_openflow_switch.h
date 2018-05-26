@@ -202,6 +202,8 @@
 #define TOTAL_DNS_RESPONSE_REG                   OF_BASE_ADDR+0x43
 #define TOTAL_PKT_LEN_REG                        OF_BASE_ADDR+0x44
 #define CNT_PKT_REG                              OF_BASE_ADDR+0x45
+#define NUM_FLOW_1_PKT                           OF_BASE_ADDR+0x46
+#define NUM_FLOW                                 OF_BASE_ADDR+0x47
 
 #endif
 
