@@ -178,7 +178,7 @@ struct remote {
     void *cb_aux;
 };
 
-static struct vlog_rate_limit rl = VLOG_RATE_LIMIT_INIT(60, 60);
+static struct vlog_rate_limit rl = VLOG_RATE_LIMIT_INIT(6000000, 60);
 
 static struct remote *remote_create(struct datapath *, struct rconn *);
 static void remote_run(struct datapath *, struct remote *);
